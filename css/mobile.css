@@ -1,0 +1,49 @@
+.logo{
+    position: absolute;
+}
+
+
+.menu {
+    position: absolute;
+    width: 60%;
+    font-size: small;
+    text-align: right;
+    width: 370px;
+    padding: 14px;
+    
+}
+
+.texto-sobre h1 {
+    position: absolute;
+    text-align: center;
+    bottom: 400px;
+    font-size: 40px;
+    right: 40px;
+    width: 300px;
+}
+
+.texto-sobre h3{
+    position: absolute;
+    text-align: center;
+    font-size: 13px;
+    bottom: 200px;
+    right: 40px;
+    width: 300px;
+}
+
+
+.extras{
+    position:absolute;
+    bottom: -350px;
+    right: -50px;
+    width: 500px;
+    height: 500px;
+}
+
+.extras img{
+    position: relative;
+    bottom: 50px;
+    right: -90px;
+    width: 350px;
+    height: 500px;
+}

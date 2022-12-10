@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    height: 200px;
+    padding: 20px 0;
+
+}
+
+.logo{
+    width: 40%;
+}
+
+.menu{
+    width: 50%;
+    text-align: right;
+}
+
+.menu a{
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras img{
+    transform: translateY(0px);
+    animation: float 5s ease-in-out;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(30px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: #017143;
+}
+
+
+.texto-sobre h1{
+    position: absolute;
+    font-size: 40px;
+    right: 200px;
+    width: 1000px;
+    
+}
+
+.texto-sobre h3{
+    position: absolute;
+    font-size: 15px;
+    bottom: 200px;
+    right: 600px;
+    width: 600px;
+    
+}
+
